@@ -1,8 +1,8 @@
 import pyperclip
 
-mainLen = 12.5 #the MM length we want to keep it relative to
+mainLen = 35.69  #the MM length we want to keep it relative to
 
-otherLen = 2 #Some other length
+otherLen = 35.8 #Some other length
 
 calc = otherLen / mainLen
 
@@ -12,7 +12,7 @@ calc = otherLen / mainLen
 
 # 12.5*1.3936 = 17.42
 msg = f"<<PivotBracketPan_Master>>.Constraints.ArcDistAtCenter * {round(calc,3)}" #Put this on some other length to keep it the same, until the mainlength changes
-
+print(f"{mainLen} * {calc} = {otherLen}")
 pyperclip.copy(msg)
 
 print(f"Copied to clipboard: {msg}")
