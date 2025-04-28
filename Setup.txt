@@ -1,0 +1,3 @@
+LHS has heated insert ATTACHED TO CAMERA. Screw is 25mm
+RHS has servo, and we use biggest screw from inside to attach the servo
+Bottom is same thing
